@@ -53,7 +53,10 @@ dependencies {
     // KTX
     implementation 'androidx.core:core-ktx:1.0.1'
 
+    // NavDrawer
+    implementation "com.google.android.material:material:$version"
+
     // Navigation
-    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0"
-    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0"
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 }
